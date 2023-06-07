@@ -1,0 +1,482 @@
+/* font style */
+h1, h2, h3, h4, h5, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.great-stuffs a{
+  color: black;
+}
+
+/* yellow line */
+.dez-separator{
+      display: inline-block;
+      background-color: #ffc009 !important;
+      height: 3px;
+      width: 80px;
+      margin-bottom: 10px;
+      position: relative;
+}
+
+.dez-separator-footer{
+      display: inline-block;
+      background-color: #ffc009 !important;
+      height: 3px;
+      width: 60px;
+      margin-bottom: 10px;
+      position: relative;
+}
+
+/* button */
+.btn-warning{
+  border-radius: 15px;
+  width: 144px;
+  height: auto;
+}
+
+/* arrow */
+.up-arrow{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  filter: drop-shadow(2px 2px 2px #666);
+  z-index: 100;
+}
+
+/* yellow circle */
+.box-feature img{
+  border-radius: 50%;
+  border: solid 2px #ffc009 !important;
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+}
+
+/* header start from here */
+header {
+	text-align: center;
+  width: 100%;
+  height: auto;
+	font-size: 120%;
+}
+
+/* menu bar start from here */
+nav img {
+  width: 80%;
+  height: auto;
+  padding-left: 30%;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+  padding: 0;
+	margin: 0 auto;
+  background-color: #222529;
+}
+
+nav ul li {
+	font-weight: normal;
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+	display: block;
+	padding: 8px;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  margin: auto;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul a:link {
+  color: white;
+}
+nav ul a:visited {
+  color: white !important;
+}
+nav ul a:focus {
+	color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+nav ul a:hover {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+nav ul a:active {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+/* menu bar end from here */
+/* header end from here */
+
+/* Banner start from here */
+.shadow-2-strong a{
+color: white;
+}
+
+.preparation-intro{
+  font-size: 110%;
+}
+
+#intro{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Outfit/closet.jpg);
+  background-size: cover;
+}
+
+.shadow-2-strong h1{
+padding-top: 20%;
+}
+
+.shadow-2-strong p{
+padding-bottom: 20%;
+}
+
+.bd-placeholder-img{
+  width:140px;
+  height: auto;
+}
+
+.fa-street-view{
+  width:200px;
+  height: auto;
+}
+/* Banner end from here */
+
+/* intro start from here */
+.latest-match-box{
+    display: flex;
+    align-items: center;
+    background: #211e23;
+    position: relative;
+    box-shadow: 0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.34);
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #222529;
+    color: white;
+}
+
+.row-intro{
+  margin: 30px 0;
+}
+
+.row-outfit{
+  margin-bottom: 30px;
+}
+
+.latest-match-area img{
+  border-radius: 50%;
+  border: solid 2px #ffc009 !important;
+  width: 40px;
+  height: 40px;
+}
+
+.latest-match-box h3, .latest-match-box p{
+  color: white;
+}
+
+.outline-button{
+  border-radius: 5px;
+  background-color: #ffc009;
+  color: white;
+}
+
+.button-outfit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* intro end from here */
+
+/* My favourite outfit start from here */
+.container-xxl h4{
+  margin-top: 20px;
+}
+
+.outfit-list{
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 2px solid #222529;
+}
+
+.outfit-list{
+  padding: 0 !important;
+  margin: 0  !important;
+}
+
+.mylove-pargraph{
+  margin: 0 10px 15px 10px;
+}
+
+.favourite{
+  padding-top: 5px !important;
+}
+
+.title{
+  background-color: #222529;
+  margin-bottom: 20px
+}
+
+.title h2{
+  color: white;
+  padding-top: 20px;
+}
+
+.carousel-control-prev-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffc009' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffc009' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* My favourite outfit end from here */
+
+/* my favourite collection start from here */
+.great-stuffs .single-location .location-img img {
+    width: 50%;
+    height: auto;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.animal{
+  padding: 0 !important;
+}
+
+.single-location{
+  margin: 0;
+}
+/* my favourite collection end from here */
+
+/* buying tips start from here */
+#flytobuying{
+  background-color: #222529;
+  color: white;
+}
+
+/* buying tips end from here */
+iframe{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.buying{
+  padding-left: 50px;
+}
+
+/* Free Outfit Tips start from here */
+.text-dark{
+  background-color: #ffc009 !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* footer start from here */
+.bg-light p, .bg-light h4{
+  color: white !important;
+}
+
+.footers{
+  background-color: #222529 !important;
+}
+
+.footer-pt-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* footer 1 start from here */
+.footers-one img{
+  max-width: 28%;
+}
+/* footer 1 end from here */
+
+/* footer 2 start from here */
+.youtube{
+  max-width: 35%;
+}
+
+.fa-solid{
+  padding-right: 2%;
+}
+
+.footers-two{
+  padding-left: 5%;
+}
+
+.footers-two a{
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.footers-two ul ul {
+  position: absolute;
+  margin: auto;
+}
+
+.footers-two a:link {
+  color: white;
+}
+.footers-two ul a:visited {
+  color: white !important;
+}
+.footers-two ul a:focus {
+	color: #ffc009;
+  border-radius: 5px;
+}
+.footers-two ul a:hover {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+.footers-two ul a:active {
+  color: black;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+/* footer 2 end from here */
+
+/* footer 3 start from here */
+.footers-three p{
+  margin-bottom: 0;
+}
+
+.footers-three{
+  padding-left: 5%;
+}
+
+.footers-three a{
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.footers-three ul a:link {
+  color: white;
+}
+.footers-three ul a:visited {
+  color: white !important;
+}
+.footers-three ul a:focus {
+	color: #ffc009;
+  border-radius: 5px;
+}
+.footers-three ul a:hover {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+.footers-three ul a:active {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+/* footer 3 start from here */
+
+/* copyright */
+.copyright h5{
+  color: #222529;
+  font-size: 99%;
+}
+.copyright{
+  margin-bottom: 1%;
+}
+/* footer end from here */
+
+/* phone version start from here */
+@media screen and (max-width: 750px) {
+  /* footer */
+  .footers-two {
+    padding: 5%;
+  }
+  .footers-one img{
+    padding-left: 2%;
+  }
+
+  /* menu bar */
+  nav img{
+    width: 200px;
+    height: auto;
+  }
+
+/* intro */
+  .row-collection{
+    margin: 30px 0;
+  }
+
+  /* favourite collection */
+  .great-stuffs .single-location .location-img img {
+      width: 100%;
+      height: auto;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  .great-stuffs h3{
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* menu bar */
+.nav{
+ display: flex;
+ flex-wrap: nowrap;
+}
+.nav img{
+ padding-left: 0%;
+}
+
+/* footer */
+.footers-one p{
+ margin: 10px;
+}
+
+/* favourite collection */
+.great-stuffs .single-location .location-img img {
+    width: 50%;
+    height: auto;
+}
+.great-stuffs h3{
+  font-size: 25px !important;
+}
+
+/* buying outfit */
+.buying h2{
+  margin-top: 7px;
+}
+.buying{
+  padding-top: 20px;
+}
+
+}

@@ -1,0 +1,371 @@
+/* font style */
+h1, h2, h3, h4, h5, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* yellow line */
+.dez-separator{
+      display: inline-block;
+      background-color: #ffc009 !important;
+      height: 3px;
+      width: 80px;
+      margin-bottom: 10px;
+      position: relative;
+}
+
+.dez-separator-footer{
+      display: inline-block;
+      background-color: #ffc009 !important;
+      height: 3px;
+      width: 60px;
+      margin-bottom: 10px;
+      position: relative;
+}
+
+/* button */
+.outline-button{
+  border-radius: 5px;
+  padding: 7px 10px;
+  background-color: #ffc009;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* arrow */
+.up-arrow{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  filter: drop-shadow(2px 2px 2px #666);
+}
+
+/* header start from here */
+header {
+	text-align: center;
+  width: 100%;
+  height: auto;
+	font-size: 120%;
+}
+
+/* menu bar start from here */
+nav img {
+  width: 80%;
+  height: auto;
+  padding-left: 30%;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+  padding: 0;
+	margin: 0 auto;
+  background-color: #222529;
+}
+
+nav ul li {
+	font-weight: normal;
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+	display: block;
+	padding: 8px;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  margin: auto;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+nav ul a:link {
+  color: white;
+}
+nav ul a:visited {
+  color: white !important;
+}
+nav ul a:focus {
+	color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+nav ul a:hover {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+nav ul a:active {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+/* menu bar end from here */
+/* header end from here */
+
+/* Banner start from here */
+.shadow-2-strong a{
+color: white;
+}
+
+.preparation-intro{
+  font-size: 110%;
+}
+
+#intro{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Preparation/Preparation.png);
+  background-size: cover;
+}
+
+.shadow-2-strong h1{
+padding-top: 20%;
+}
+
+.shadow-2-strong p{
+padding-bottom: 20%;
+}
+
+.bd-placeholder-img{
+  width:140px;
+  height: auto;
+}
+
+.fa-street-view{
+  width:200px;
+  height: auto;
+}
+/* Banner end from here */
+
+/* 3 icons start from here */
+.section-gray{
+  padding: 4% !important;
+}
+
+.aggresive{
+  border-left: 2px solid #dedede !important;
+  border-right: 2px solid #dedede !important;
+}
+
+.fa-2xl{
+  width: 54px;
+  height: 54px;
+  padding-top: 23px;
+  padding-left: 8px;
+  border-radius: 50%;
+  border: solid 3px #ffc009 !important;
+}
+/* 3 icon end from here */
+
+/* playing method start from here */
+.blog{
+  background-color: #222529;
+  color: white;
+}
+
+#flytoheart{
+  background-color: white;
+  color: black;
+}
+
+iframe{
+  max-height: 100%;
+  max-width: 100%;
+}
+/*  playing method end from here */
+
+/* map start from here */
+.playing-method img {
+    border-style: none;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.p-a30 {
+    padding: 30px;
+}
+
+.dez-info {
+    background-color: #222529 !important;
+    color: white;
+    box-shadow: 0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.34);
+}
+
+.playing-method{
+  padding-top: 3%;
+}
+/* map end from here */
+
+/* footer start from here */
+.bg-light p, .bg-light h4{
+  color: white !important;
+}
+
+.footers{
+  background-color: #222529 !important;
+}
+
+.footer-pt-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* footer 1 start from here */
+.footers-one img{
+  max-width: 28%;
+}
+/* footer 1 end from here */
+
+/* footer 2 start from here */
+.youtube{
+  max-width: 35%;
+}
+
+.fa-solid{
+  padding-right: 2%;
+}
+
+.footers-two{
+  padding-left: 5%;
+}
+
+.footers-two a{
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.footers-two ul ul {
+  position: absolute;
+  margin: auto;
+}
+
+.footers-two a:link {
+  color: white;
+}
+.footers-two ul a:visited {
+  color: white !important;
+}
+.footers-two ul a:focus {
+	color: #ffc009;
+  border-radius: 5px;
+}
+.footers-two ul a:hover {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+.footers-two ul a:active {
+  color: black;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+/* footer 2 end from here */
+
+/* footer 3 start from here */
+.footers-three p{
+  margin-bottom: 0;
+}
+
+.footers-three{
+  padding-left: 5%;
+}
+
+.footers-three a{
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.footers-three ul a:link {
+  color: white;
+}
+.footers-three ul a:visited {
+  color: white !important;
+}
+.footers-three ul a:focus {
+	color: #ffc009;
+  border-radius: 5px;
+}
+.footers-three ul a:hover {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+.footers-three ul a:active {
+  color: black !important;
+  background-color: #ffc009;
+  border-radius: 5px;
+  border-color: #ffc009;
+}
+/* footer 3 start from here */
+
+/* copyright */
+.copyright h5{
+  color: #222529;
+  font-size: 99%;
+}
+.copyright{
+  margin-bottom: 1%;
+}
+/* footer end from here */
+
+/* phone version start from here */
+@media screen and (max-width: 750px) {
+  /* footer */
+  .footers-two {
+    padding: 5%;
+  }
+  .footers-one img{
+    padding-left: 2%;
+  }
+
+  /* Do not be Aggressive */
+  .aggresive{
+    border-left: 2px solid white !important;
+    border-right: 2px solid white !important;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+/* menu bar */
+  nav img{
+    width: 200px;
+    height: auto;
+  }
+}
+
+ @media screen and (max-width: 580px) {
+   /* menu bar */
+.nav{
+   display: flex;
+   flex-wrap: nowrap;
+ }
+ .nav img{
+   padding-left: 0%;
+ }
+
+/* footer */
+.footers-one p{
+  margin: 10px;
+  }
+
+  /* Do not be Aggressive */
+.donotbeaggresive h2{
+  margin-top: 7px;
+}
+}
