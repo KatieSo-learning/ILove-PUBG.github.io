@@ -138,7 +138,7 @@ color: white;
 }
 
 #intro{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Outfit/Closet.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/outfit/closet.jpg);
   background-size: cover;
 }
 
