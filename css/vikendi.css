@@ -130,7 +130,7 @@ nav ul a:active {
 
 /* Banner start from here */
 #intro{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Erangel/erangel.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Vikendi/Vikendi.png);
   background-size: cover;
 }
 
